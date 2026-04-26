@@ -1,0 +1,19 @@
+# IDE / Editor
+.idea/
+.vscode/
+
+# Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+.venv/
+
+# OS
+.DS_Store
+
+# Data files
+data/
+*.csv
+processed/
+lstm_autoencoder.pt
