@@ -17,3 +17,9 @@ data/
 *.csv
 processed/
 lstm_autoencoder.pt
+
+# Images 
+figures/
+
+# report 
+Part1_Q3_report.tex
