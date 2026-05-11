@@ -38,7 +38,6 @@ ML4H_Project_2/
 │
 │── Part 1: Heart Disease (tabular) ──────────────────────────────────────
 ├── Part1_Q1.ipynb                   # Q1: Exploratory Data Analysis + Preprocessing
-├── Part1_Q1_Ferdi.ipynb             # Draft / alternative EDA version
 ├── Part1_Q2.ipynb                   # Q2: Logistic Lasso Regression + feature importance
 ├── Part1_Q3.ipynb                   # Q3: MLP + SHAP explanations
 ├── Part1_Q4.ipynb                   # Q4: Neural Additive Models (NAM)
@@ -67,25 +66,6 @@ pip install -r requirements.txt
 ```
 
 Key dependencies: `torch==2.2.2`, `torchvision==0.17.2`, `scikit-learn`, `shap`, `polars`, `pandas`, `numpy`, `matplotlib`, `pillow`.
-
-### 2. Data
-
-**Part 1 — Heart Disease dataset**
-
-Place `heart.csv` and `splits_heart.csv` in the `data/` folder. These are provided via Moodle.
-
-**Part 2 — Chest X-Ray dataset**
-
-Download the [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) dataset from Kaggle and extract it so the folder structure is:
-
-```
-data/chest_xray/
-    train/ {NORMAL/, PNEUMONIA/}
-    val/   {NORMAL/, PNEUMONIA/}
-    test/  {NORMAL/, PNEUMONIA/}
-```
-
----
 
 ## Execution Order
 
